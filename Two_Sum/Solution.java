@@ -2,7 +2,7 @@ import java.util.Hashtable;
 
 public class Solution {
     public int[] twoSum(int[] numbers, int target) {
-		Hashtable<Integer, Integer> ht = new Hashtable<Integer, Integer>();
+	Hashtable<Integer, Integer> ht = new Hashtable<Integer, Integer>();
         int[] ret = new int[2];
         for(int i = 0; i < numbers.length; i++)
         {
