@@ -7,7 +7,6 @@ public class Solution {
 		for (int i = 1; i < A.length; i++) {
 			ret = ret ^ A[i];
 		}
-		
 		return ret;
     }
 }
